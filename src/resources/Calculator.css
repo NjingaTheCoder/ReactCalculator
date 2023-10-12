@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tektur;
+}
+
+.calculator-container{
+    background-color: yellow;
+    max-width: 370px;
+    min-height: 500px;
+    padding: 1rem;
+}
+
+.label-container{
+    background-color: white;
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.2rem;
+    max-width: 370px;
+    min-height: 30px;
+    margin-bottom: 0.5rem;
+}
+
+.label-1,.label-2{
+
+    font-size: 1.5rem;
+    text-align: end;
+    text-wrap: wrap;
+    overflow-x: hidden;
+    padding: 0 1rem;
+    color: black;
+}
